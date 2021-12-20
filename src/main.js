@@ -1,9 +1,13 @@
-// import m from './metadata';
-// import d from './dml';
-// import l from './login';
+import m from './metadata.js';
+import d from './dml.js';
+import l from './login.js';
+import e from './exception.js';
 
-// module.exports = {
-//     MetadataManager : m,
-//     DMLManager : d,
-//     LoginManager : l
-// }
+export default function main(){
+    return {
+        //MetadataManager : m,
+        //DMLManager : d,
+        LoginManager : l,
+        //Exception : e
+    }
+}
